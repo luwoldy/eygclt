@@ -8,19 +8,21 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bare - Start Bootstrap Template</title>
+  <title>Ethiopian Youth Group</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="vendor/assets/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/assets/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="vendor/assets/icomoon/style.css">
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Ethiopian Youth Group</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -32,33 +34,331 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#mission">Mission</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#impact">Impact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-        <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.3.1</li>
-          <li>jQuery 3.4.1</li>
-        </ul>
+  <div class="jumbotron jumbotron-fluid hero" id="mission">
+    <div class="container hero-text">
+      <h1 class="display-5">We prepare Ethiopian/Eritrean students for life after high school</h1>
+      <p class="lead">Our Youth Group members recieve college and career prep, learn about thier culture, and volunteer in Charlotte </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button" style="background-color:#FF5722; border-color:#FF5722">Join Us</a>
+    </div>
+  </div>
+  <div class="d-block d-md-flex intro-engage">
+    <div class="">
+      <h2>Non-Profit</h2>
+      <p>Established in 2014 as a sub committee of the Ethiopian Community of Charlotte.</p>
+    </div>
+    <div>
+      <h2>Vision</h2>
+      <p>We want to create a community where students can surround themselves with positive influences</p>
+    </div>
+    <div>
+      <h2>Values</h2>
+      <p>Civic engagement, service, mentorship, leadership</p>
+    </div>
+  </div>
+
+  <div class="site-section bg-image overlay counter" style="background-image: url('images/hero_1_no-text.jpg');" id="about-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-6 mb-4">
+              <img src="vendor/assets/group.JPG" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-5 ml-auto align-self-lg-center">
+          <h2 class="text-black mb-4 text-uppercase section-title">Our Mission</h2>
+          <ul>
+            <li>Leadership training & College Preparation with an emphasis on helping younger generations</li>
+            <li>Learning and embracing Ethiopian/Eritrean culture and language</li>
+            <li>Civic engagement- seeking opportunities to engage with the greater Charlotte community and give back</li>
+            <li>Social network for high-achieving Ethiopian/Eritrean (Habesha) students in the Charlotte area</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+          <div class="block-counter-1">
+            <span class="number"><span data-number="15">35</span></span>
+            <span class="caption text-black">Number of Members</span>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+          <div class="block-counter-1">
+            <span class="number"><span data-number="392">5</span></span>
+            <span class="caption text-black">Number of Youth Leaders</span>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+          <div class="block-counter-1">
+            <span class="number"><span data-number="3293">12</span></span>
+            <span class="caption text-black">Number of Volunteers</span>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4 col-lg-0 col-lg-3">
+          <div class="block-counter-1">
+            <span class="number"><span data-number="1212">250</span></span>
+            <span class="caption text-black">Volunteer hours in 2018</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
+  <div class="site-section" id="services">
+      <h2 class="text-black mb-4 text-uppercase section-title text-center">Service areas</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-piggy-bank d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">Cultural & Language Immersion</h3>
+            <p>Students learn about their culture including the language, food, and music</p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-blood d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">Civic Engagement & Service</h3>
+          <p>Seeking opportunities to engage with the greater Charlotte community. Learning the value of giving back.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-food d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">College and Career Preparation</h3>
+          <p>Students get exposure to guest speakers who are either professionals or current college students. We also offer help with the college search and application process along with career exploration.</p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-donation d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">Leadership Training</h3>
+          <p>There are several oppurtunities to take leadership roles in the Youth Group. Students can learn about different styles of leadersihp along with building self-awareness and confidence. Our mission is to train the next group of youth and community leaders.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-dollar d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">Expanding Social Networks</h3>
+          <p>Meeting other high-achieving Ethiopian and Eritrean youth. Our students foster life-long friendships with their peers.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 text-center">
+          <span class="flaticon-unity d-block mb-3 display-3 text-secondary"></span>
+          <h3 class="text-primary h4 mb-2">Mentorship</h3>
+          <p>We offer students mentoship oppurtunities with a wide variety of professionals in the area. We also seek to build a bridge between parents and students.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section block-13 overlay bg-image" id="testimonials" data-aos="fade" style="background-image: url('images/hero_1_no-text.jpg');">
+    <div class="container">
+      
+      <div class="text-center mb-5">
+        <h2 class="text-white text-uppercase section-title">Testimonials</h2>
+      </div>
+
+      <div class="owl-carousel nonloop-block-13">
+        <div>
+          <div class="block-testimony-1 text-center">
+            
+            <blockquote class="mb-4">
+              <p>&ldquo;The Ethiopian Youth Group has influenced my life in many different ways. From the very first day I stepped foot onto the Al-Basha Restaurant, in which we had our first meetings, I felt connected to my Ethiopian community. Throughout my high school journey, the mentors have helped me every step of the way. I learned how to take pride in where I came from and how to teach others about Ethiopia. Most Ethiopians are first-generation students. This Youth group focuses on teaching students how to apply for college, gain insightful experiences, and be a well-rounded person. While we did not know each other at first, we now consider each other as family. As I move on to another chapter of my life, I am very thankful for the Ethiopian Youth Group because without them, I would not be where I am today.&rdquo;</p>
+            </blockquote>
+
+            <figure>
+              <img src="vendor/assets/lidia.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+            </figure>
+            <h3 class="font-size-20 text-white">Lidia Adem - Member</h3>
+            <hr>
+          </div>
+        </div>
+
+        <div>
+          <div class="block-testimony-1 text-center">
+            <blockquote class="mb-4">
+              <p>&ldquo;We've been there several times now and we always havea  good time. I have 4 kids and they get to play with other Ethiopian kids and make friends. They get college and life advice from the mentors. There is even a parent chat room if anyone needs help with transportation for the kids.&rdquo;</p>
+            </blockquote>
+
+            <figure>
+              <img src="vendor/assets/rome.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+            </figure>
+            <h3 class="font-size-20 text-white">Roman Aklilu - Parent</h3>
+            <hr>
+            
+          </div>
+        </div>
+
+        <div>
+          <div class="block-testimony-1 text-center">
+            <blockquote class="mb-4">
+              <p>&ldquo;I love partnering with the Ethiopian Youth Group. They were such a big help during the Ethiopian culture festival this year. They brought enthusiasm and fun to our event and they helped with every aspect of the festival. The organizers care about the kids and always push them to do their best.&rdquo;</p>
+            </blockquote>
+            
+            <figure>
+              <img src="vendor/assets/leul.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+            </figure>
+            <h3 class="font-size-20 text-white">Leul Shewangizaw - Tesfa Ethiopia</h3>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    
+  </div>
+  <div class="site-section" id="impact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-7 text-center mb-5 text-center">
+            <h2 class="text-black text-uppercase section-title">Our Impact</h2>
+            <p>Every year we go out and volunteer in our community with different organizations around Charlotte. At these events our members contribute to the success of the organization and learn valuable life skills.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <img src="vendor/assets/lch.jpg" alt="Image" class="img-fluid rounded">
+              <h2>LCH</h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span></p>
+              <p>Year long partnership with Levine’s Children's Hospital. Camp experience for pediatric patients diagnosed with terminal Cardiopulmonary diseases or failure.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img src="vendor/assets/tesfa.JPG" alt="Image" class="img-fluid rounded">
+              <h2>Tesfa Ethiopia Annual Festival</h2>
+              <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">May 4th, 2019</span></p>
+              <p>Members played a critical role in helping Tesfa Ethiopia's festival. They helped with various roles during the event and provided entertainment in the form of dancing, acting, and a fashion show.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                  <img src="vendor/assets/womensshelter.jpg" alt="Image" class="img-fluid rounded">
+                  <h2>Sardis Womens Shelter</h2>
+                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span></p>
+                  <p>Volunteers helped with packaging clothes for homeless women.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                      <img src="vendor/assets/levines.jpg" alt="Image" class="img-fluid rounded">
+                      <h2>Levines Childrens Hospital Valentines Day</h2>
+                      <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">January 18, 2019</span></p>
+                      <p>Volunteers helped make valentines day cards at the hospital.</p>
+    
+                    </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-black section-title text-uppercase">Join Us!</h2>
+            <p>We meet on the campus of UNCC every other Saturday. Call us at 704-222-222 or fill out the form below to attend our next orientation</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-5">
+            <form action="#" method="post">
+              <div class="form-group row">
+                <div class="col-md-6 mb-4 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Email address">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6 ml-auto">
+                  <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4">Part of the Ethiopian Community of Charlotte</h2>
+                <img src="vendor/assets/ethclt.png">
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+
+            <div class="mb-5">
+              <div class="mb-5">
+                <h2 class="footer-heading mb-4">Some Paragraph</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum libero iusto dolorum vero atque aliquid.</p>
+              </div>
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <form action="#" method="post">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+            
+            </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
